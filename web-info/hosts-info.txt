@@ -1,0 +1,36 @@
+Ip : 172.217.3.68
+Content-Encoding : gzip
+Content-Type : text/html; charset=ISO-8859-1
+Server : gws
+Host : www.google.com
+
+Ip : 31.13.65.38
+Content-Encoding : gzip
+Content-Type : text/html; charset="utf-8"
+Server : Unknown
+Host : www.facebook.com
+
+Ip : 208.80.154.224
+Content-Encoding : gzip
+Content-Type : text/html
+Server : mw1239.eqiad.wmnet
+Host : www.wikipedia.com
+
+Ip : 104.244.42.193
+Content-Encoding : gzip
+Content-Type : text/html;charset=utf-8
+Server : tsa_c
+Host : www.twitter.com
+
+Ip : 31.13.65.38
+Content-Encoding : gzip
+Content-Type : text/html; charset="utf-8"
+Server : Unknown
+Host : www.facebook.com
+
+Ip : 66.228.35.101
+Content-Encoding : Unknown
+Content-Type : text/html
+Server : nginx
+Host : www.deluxebox.co
+
