@@ -1,0 +1,24 @@
+Ejercicios prácticos:
+
+1. Probabilidad de ganar en el juego de dados: Diseñe un script en Python para calcular la probabilidad de ganar en un
+   juego de lanzamiento de dados. Elija el número total de muestras que desea analizar para el calculo de la probabilidad.
+   Luego por cada una de las muestras ejecute los turnos al dado que usted deseee. Si la cara del dado es menor o igual a 3 el
+   jugador pierde una moneda (del total de las que ya ha ganado en otros turnos) o cero monedas si no ha ganado previamente. 
+   Si la cara del dado es mayor a 3 pero menor a 6 el jugador gana una moneda. Si la cara es 6 entonces el jugador gana un numero
+   aleatorio de monedas (número entre 1 y 7). Vaya acumulando los resultados (numero de monedas) de todos los turnos por cada muestra.
+   Para calcular la probabilidad de ganar se debe sumar unicamente los resultados finales de cada muestra que hayan sido mayores o
+   igaules a 50 y dividirlos por el número de total de muestras. Imprima la probabilidad resultante en formato de porcentaje.
+   
+ 2. Una matriz cuadrada mágica es una matriz en la cual la suma de todos los elementos de sus filas, la suma de todos los
+    elementos de sus columnas y la suma de todos los elementos de sus diagonales son iguales. Compruebe que la matriz A(5x5) es
+    mágica y que las 12 (en este caso) sumas mencionadas anteriormente dan lo mismo. Utiles: np.diag, np.fliplr
+    
+    A = np.array([[17, 24, 1, 8, 15], [23, 5, 7, 14, 16], [4, 6, 13, 20, 22], [10, 12, 19, 21, 3], [11, 18, 25, 2, 9]])
+    
+  3. a) Cree una subdivisión uniforme del intervalo (-1.3, 2.5) con 64 subdivisiones.
+     b) Genere un arreglo de longitud 3n llenado con el patrón ciclico 1, 2, 3.
+     c) Cree un array de los 10 primeros enteros impares
+     d) Cree un array de 10x10 lleno de ceros y "enmarquelo" en un borde de unos.
+  
+    
+    
