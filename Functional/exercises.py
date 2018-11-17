@@ -56,3 +56,23 @@ print([f**3 for f in fibo(30)])
 # carácter ‘c’ aparece consecutivamente x veces. Reemplace las ocurrencias consecutivas con
 # tuplas de estilo (x, c), donde x es el número de ocurrencias y c el carácter. (Sugerencia: groupby)
 
+def appendChar(char, grupo):
+    if len(grupo) == 0:
+        return  [char]
+    elif char == grupo[-1][-1]:
+        nuevoGrupo = grupo.copy()
+        nuevoGrupo[-1] = nuevoGrupo[-1] + char 
+        return nuevoGrupo
+    else :
+        return grupo + [char]
+
+
+def groupby(chain, grupo = []):
+    if len(chain) == 1:
+        return appendChar(chain[0], grupo)
+    else :
+        return groupby(chain[1:], appendChar(chain[0], grupo))
+    
+recibido = '111116666677cc77777'
+grupos = [(len(chain), chain[0]) for chain in groupby(recibido) ]
+print('Tuplas:', grupos) 
